@@ -1,0 +1,29 @@
+@import '../../../style/variables.scss'; 
+
+.easy-input {
+    border: none;
+    border-bottom: 1px solid $divider-color;
+    transition: border-bottom 0.5s ease;
+    transition: padding 0.5s ease;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: $primary-text-color;
+    outline: none;
+    &:read-only {
+        opacity: 0.8;
+        cursor: not-allowed;
+    }
+
+    &:focus:not(:read-only) {
+        border-bottom: 2px solid $input-focus-border-color;
+        padding: 5px;
+    }
+}
+
+.easy-input-label {
+    color: $primary-text-color;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
