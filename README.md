@@ -8,7 +8,6 @@
 - [ ] **Select** (Dropdowns e Comboboxes)  
 - [ ] **Alertas** (Alert, Toast)  
 - [ ] **Modais** (Modal, Dialog)  
-- [ ] **Tipografia** (Text, Heading, Label, etc.)
 
 ## 📌 Componentes Complementares (Para Expandir no Futuro)  
 - [ ] **Badges** (Selo de status)
